@@ -1,7 +1,13 @@
-# terraform_aws_examples
+# Terraform AWS Example
 
-cd terraform_aws
-terraform init
+> cd terraform_aws
 
-use -var-file=name.tfvars to initialize variables.
-eg terraform plan -var-file=name.tfvars -out ec2tfplan
+### Initializing
+
+> terraform init
+
+### use the -var-file flag to specify variable file
+
+eg.
+
+> terraform plan -var-file=name.tfvars -out ec2tfplan
